@@ -15,9 +15,9 @@
     + [Java语言的三种技术架构](#Java语言的三种技术架构)
     + [Java特性](#java特性)
   * [Java编程环境搭建](#java编程环境搭建)
-    + [`JRE与JDK`](#`JRE与JDK`)
-    + [下载`JDK`](#下载`JDK`)
-    + [配置`java`的环境变量](#配置`java`的环境变量)
+    + [`JRE与JDK`](#JRE 与JDK)
+    + [下载`JDK`](#下载JDK)
+    + [配置`java`的环境变量](#配置java的环境变量)
     + [Java环境测试](#Java环境测试)
   * [第一个Java程序编写](#第一个Java程序编写)
 
@@ -89,7 +89,7 @@ SUN公司于1995年推出的一门高级编程语言;
 
 ## Java编程环境搭建
 
-### `JRE & JDK`
+### JRE 与JDK
 
 - `JRE(Java Runtime Environment)`
   - Java运行环境：
@@ -103,13 +103,13 @@ SUN公司于1995年推出的一门高级编程语言;
     - ...
 - 简单来说：使用`JDK`完成`java`程序的开发，然后在使用`JRE`进行程序的运行
 
-### 下载`JDK(Java Development Kit)`
+### 下载JDK
 
 下载地址: [JDK下载地址](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html )
 
 ![02_JDK下载示例](../media/02_JDK下载.png)
 
-### 配置`java`的环境变量
+### 配置Java的环境变量
 
 - 在配置JDK的环境变量时，一般要创建一个新的环境变量`JAVA_HOME`,后续在安装其他环境时会用到这个环境变量
 - 使用`%JAVA_HOME%`来动态获取环境变量的值。
