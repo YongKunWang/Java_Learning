@@ -15,7 +15,7 @@
     + [Java语言的三种技术架构](#Java语言的三种技术架构)
     + [Java特性](#java特性)
   * [Java编程环境搭建](#java编程环境搭建)
-    + [`JRE与JDK`](#JRE 与JDK)
+    + [`JRE与JDK`](#JRE与JDK)
     + [下载`JDK`](#下载JDK)
     + [配置`java`的环境变量](#配置java的环境变量)
     + [Java环境测试](#Java环境测试)
@@ -89,7 +89,7 @@ SUN公司于1995年推出的一门高级编程语言;
 
 ## Java编程环境搭建
 
-### JRE 与JDK
+### JRE与JDK
 
 - `JRE(Java Runtime Environment)`
   - Java运行环境：
