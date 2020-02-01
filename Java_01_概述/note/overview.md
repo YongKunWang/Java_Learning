@@ -16,7 +16,7 @@
     + [Java特性](#java特性)
   * [Java编程环境搭建](#java编程环境搭建)
     + [`JRE与JDK`](#`JRE与JDK`)
-    + [下载`JDK(Java Development Kit)`](#下载`JDK(Java Development Kit)`)
+    + [下载`JDK`](#下载`JDK`)
     + [配置`java`的环境变量](#配置`java`的环境变量)
     + [Java环境测试](#Java环境测试)
   * [第一个Java程序编写](#第一个Java程序编写)
