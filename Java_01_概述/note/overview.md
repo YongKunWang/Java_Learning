@@ -1,17 +1,4 @@
-- [概述-Java环境搭建&测试](#---java-------)
-  * [软件的定义](#-----)
-  * [人机交互](#----)
-  * [Java语言概述](#java----)
-    + [Java语言的三种技术架构](#java---------)
-    + [Java特性](#java--)
-  * [Java编程环境搭建](#java------)
-    + [`JRE & JDK`](#-jre---jdk-)
-    + [下载`JDK(Java Development Kit)`](#---jdk-java-development-kit--)
-    + [配置`java`的环境变量](#---java------)
-    + [Java环境测试](#java----)
-  * [第一个Java程序编写](#---java----)
-
-# 概述-Java环境搭建&测试
+# 概述-Java环境搭建与测试
 
 ---
 
@@ -19,6 +6,20 @@
 
 ---
 
+**目录**
+
+- [概述-Java环境搭建&测试](#概述-Java环境搭建与测试)
+  * [软件的定义](#软件的定义)
+  * [人机交互](#人机交互)
+  * [Java语言概述](#Java语言概述)
+    + [Java语言的三种技术架构](#Java语言的三种技术架构)
+    + [Java特性](#java特性)
+  * [Java编程环境搭建](#java编程环境搭建)
+    + [`JRE与JDK`](#`JRE与JDK`)
+    + [下载`JDK(Java Development Kit)`](#下载`JDK(Java Development Kit)`)
+    + [配置`java`的环境变量](#配置`java`的环境变量)
+    + [Java环境测试](#Java环境测试)
+  * [第一个Java程序编写](#第一个Java程序编写)
 
 
 ## 软件的定义
