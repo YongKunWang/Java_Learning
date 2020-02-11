@@ -31,6 +31,8 @@ public class DuoTaiDemo2{
         //编译期间看左边
         //fz.m3();
 
+        //未报错，确定了编译期间看左边
+        //运行期间看右边
         Zi zf = (Zi)f;
         zf.m1();
         zf.m2();
