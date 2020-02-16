@@ -168,10 +168,3 @@ a.add(Integer.valueOf(5));
 public enum Size{SMALL,MEDIUM,LARGE,EXTRA_LARGE};
 //实际上，这个声明定义的类型是一个类，他刚好有4个实例
 ```
-
-
-
-# 反射
-
-动态的操控`Java`代码的程序。
-
