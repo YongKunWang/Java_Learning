@@ -72,21 +72,20 @@ class TicketR extends Thread {
 		super(name);
 	}
 	public void scaleTicket() {
-		synchronized (obj) {
 			while(true) {
-				if(ticket >= 0) {
-					try {
-						Thread.sleep(10);
-						System.out.println("Windows : " + Thread.currentThread().getName() + " ÂôÆ±ÖÐ.....  " + ticket --);
-					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
-						e.printStackTrace();
+				synchronized (obj) {
+					if(ticket > 0) {
+						try {
+							Thread.sleep(10);
+							System.out.println("Windows : " + Thread.currentThread().getName() + " ÂôÆ±ÖÐ.....  " + ticket --);
+						} catch (InterruptedException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
 					}
-				}
-				else {
-					break;
-				}
-				
+					else {
+						break;
+					}
 			}
 		}
 		

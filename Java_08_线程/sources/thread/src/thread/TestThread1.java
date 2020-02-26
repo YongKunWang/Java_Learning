@@ -8,9 +8,9 @@ package thread;
  *
  */
 
-class TestThread extends Thread {
+class TstThread extends Thread {
 	private String name;
-	public TestThread(String name) {
+	public TstThread(String name) {
 		// TODO Auto-generated constructor stub
 		this.name = name;
 	}
@@ -22,12 +22,12 @@ class TestThread extends Thread {
 	}
 }
 
-public class ThreadDemo1 {
+public class TestThread1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		TestThread testThread1 = new TestThread("wyk1");
-		TestThread testThread2 = new TestThread("wyk2");
+		TstThread testThread1 = new TstThread("wyk1");
+		TstThread testThread2 = new TstThread("wyk2");
 		testThread1.setName("T0");
 		testThread2.setName("T1");
 //		testThread1.start();

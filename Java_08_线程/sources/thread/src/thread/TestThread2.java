@@ -18,7 +18,6 @@ class ThreadDemo extends Thread {
 //	直接继承父类的方法就可以了！
 //	private String name;
 	public ThreadDemo(String name) {
-		// TODO Auto-generated constructor stub
 //		this.name = name;
 		super(name);
 	}
@@ -28,7 +27,7 @@ class ThreadDemo extends Thread {
 				System.out.println("This thread name is " +( Thread.currentThread()== this) +" : "+Thread.currentThread().getName() + " This is Thread...");
 				Thread.sleep(1000l);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 			
@@ -41,7 +40,6 @@ class ThreadDemo extends Thread {
 public class TestThread2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ThreadDemo threadDemo1 = new ThreadDemo("wyk1");
 		ThreadDemo threadDemo2 = new ThreadDemo("wyk2");
 //		threadDemo1.setName("T0");
@@ -55,7 +53,6 @@ public class TestThread2 {
 				Thread.sleep(300);
 				System.out.println("This thread is Main..." );
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
